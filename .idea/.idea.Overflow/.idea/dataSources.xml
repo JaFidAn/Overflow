@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres" uuid="10d8c9dd-4612-49d0-a84b-02046d531048">
+    <data-source source="LOCAL" name="postgres" uuid="be6f7da3-6dd8-4cb8-80e2-b8c9e1c0dd68">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:56209/?password=hr7E%7DY*szM0*%29xnwTVdT%7Bm&amp;user=postgres</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:60999/?password=hr7E%7DY*szM0*%29xnwTVdT%7Bm&amp;user=postgres</jdbc-url>
       <jdbc-additional-properties>
-        <property name="aspireResourceId" value="postgres-cjxzfjka" />
+        <property name="aspireResourceId" value="postgres-wycgnfqn" />
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>

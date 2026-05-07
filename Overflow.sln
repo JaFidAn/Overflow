@@ -8,6 +8,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionService", "QuestionService\QuestionService.csproj", "{F70E24A8-0EDD-49BA-B544-368481920412}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{3D13C0E8-B914-4160-AED1-B2BA78553022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{7251CA14-30B7-48F5-AD8A-E0F6FE775FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{49D8CF15-D557-4AC2-AB58-73BE9D215FAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +32,18 @@ Global
 		{F70E24A8-0EDD-49BA-B544-368481920412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F70E24A8-0EDD-49BA-B544-368481920412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F70E24A8-0EDD-49BA-B544-368481920412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D13C0E8-B914-4160-AED1-B2BA78553022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D13C0E8-B914-4160-AED1-B2BA78553022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D13C0E8-B914-4160-AED1-B2BA78553022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D13C0E8-B914-4160-AED1-B2BA78553022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D8CF15-D557-4AC2-AB58-73BE9D215FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D8CF15-D557-4AC2-AB58-73BE9D215FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D8CF15-D557-4AC2-AB58-73BE9D215FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D8CF15-D557-4AC2-AB58-73BE9D215FAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F70E24A8-0EDD-49BA-B544-368481920412} = {00A7F926-4B8C-4710-A5AF-6488E274AD68}
+		{3D13C0E8-B914-4160-AED1-B2BA78553022} = {00A7F926-4B8C-4710-A5AF-6488E274AD68}
+		{49D8CF15-D557-4AC2-AB58-73BE9D215FAD} = {7251CA14-30B7-48F5-AD8A-E0F6FE775FF0}
 	EndGlobalSection
 EndGlobal
